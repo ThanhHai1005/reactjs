@@ -4,33 +4,96 @@
     z-index: 99;
     display: flex;
     justify-content: space-between;
-    background-color: #54636c;
-    color: $common-text-color;
-    height: 40px;
+    background-color: #108edc;
+    color: white;
+    height: 100px;
     position: relative;
+    padding: 0px 140px 0px 140px;
+    align-items: center;
 
-    .btn-logout {
-        color: $common-text-color;
-        line-height: 40px;
-        height: 40px;
-        padding: 0 10px;
+    .header-tabs-container {
+        .social {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            float: none;
+            padding-left: 35px;
+            padding-bottom: 10px;
 
-        &:hover {
-            background-color: darken($colormain, 5);
+            a {
+                display: block;
+                width: 24px;
+                height: 24px;
+                margin-right: 15px;
+                cursor: pointer;
+
+
+                .fb {
+                    opacity: 1;
+                }
+
+                .fb1 {
+                    display: none;
+                    // opacity: 0;
+                }
+
+                &:hover {
+                    .fb1 {
+                        opacity: 1;
+
+                    }
+
+                    .fb {
+                        // opacity: 0;
+                        display: none;
+                    }
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                }
+            }
         }
+    }
 
-        i {
-            font-size: $base-size + 1px;
+    .logo {
+        transform: translate(-50%, -50%);
+        max-width: 300px;
+        -webkit-transform: translate(-50%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        .header-logo {
+            width: 100%;
+            height: 100%;
         }
     }
 
     .Languages {
 
-        .welcome {
-            margin-right: 10px;
-        }
+
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        float: none;
+        padding-left: 35px;
+        padding-bottom: 10px;
+
+
 
         .language-vi {
+            display: block;
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            font-size: 20px;
+
+
             cursor: pointer;
             opacity: 0.7;
 
@@ -41,6 +104,14 @@
         }
 
         .language-en {
+            display: block;
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            cursor: pointer;
+            font-size: 20px;
+
+
             margin-left: 10px;
             margin-right: 15px;
             cursor: pointer;

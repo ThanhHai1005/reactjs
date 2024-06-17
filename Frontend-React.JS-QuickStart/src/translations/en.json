@@ -50,7 +50,11 @@
             "speciatly": "Specialist",
             "manage-speciatly": "Management Specialty",
             "handbook": "Handbook",
-            "manage-handbook": "Management Handbook"
+            "manage-handbook": "Management Handbook",
+            "about-us": "About us",
+            "solution": "Solution",
+            "video": "Video",
+            "contact": "Contact"
         }
     },
     "manage-user": {

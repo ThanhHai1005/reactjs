@@ -2,6 +2,7 @@
 
 .navigator-menu {
     display: flex;
+
     margin: 0;
     padding: 0;
 
@@ -11,6 +12,8 @@
     }
 
     .menu-group {
+        // width: 33.33%;
+
         &:hover {
             cursor: pointer;
             background-color: darken($colormain, 5);
@@ -18,11 +21,11 @@
 
         .menu-group-name {
             line-height: 40px;
-            padding: 0 15px;
-            border-right: 1px solid $border;
+            padding: 5px 40px;
+            border-top: 3px solid $border;
 
             &:first-child {
-                border-left: 1px solid $border;
+                border-top: 3px solid $border;
             }
         }
 

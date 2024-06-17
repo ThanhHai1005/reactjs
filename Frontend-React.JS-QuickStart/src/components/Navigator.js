@@ -12,7 +12,8 @@ class MenuGroup extends Component {
         return (
             <li className="menu-group">
                 <div className="menu-group-name">
-                    <FormattedMessage id={name} />
+                    <h3>  <FormattedMessage id={name} /></h3>
+
                 </div>
                 <ul className="menu-list list-unstyled">
                     {children}
@@ -48,10 +49,10 @@ class Menu extends Component {
                         </div>
                     </Fragment>
                 ) : (
-                        <Link to={link} className="menu-link" onClick={onLinkClick}>
-                            <FormattedMessage id={name} />
-                        </Link>
-                    )}
+                    <Link to={link} className="menu-link" onClick={onLinkClick}>
+                        <FormattedMessage id={name} />
+                    </Link>
+                )}
             </li>
         );
     }

@@ -134,7 +134,7 @@ class UserManage extends Component {
                         currentUser={this.state.userEdit}
                         editUser={this.doEditUser}
                     />}
-                <div className='title text-center'>Manage users with Gwen</div>
+                {/* <div className='title text-center'>Manage users with Gwen</div>
                 <div className='mx-1'>
                     <button
                         className='btn btn-primary px-3'
@@ -177,7 +177,7 @@ class UserManage extends Component {
                             }
                         </tbody>
                     </table>
-                </div>
+                </div> */}
             </div>
         );
     }
