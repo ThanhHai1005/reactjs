@@ -1,0 +1,70 @@
+{
+    "homeheader": {
+        "speciality": "Chuyên khoa",
+        "searchdoctor": "Tìm Bác sĩ theo chuyên khoa",
+        "healthfacilities": "Cơ sở Y tế",
+        "choosehospital": "Chọn bệnh viện phòng khám",
+        "doctor": "Bác sĩ",
+        "choosedoctor": "Chọn bác sĩ giỏi",
+        "examinationPackage": "Gói khám",
+        "generalhealthcheck": "Khám sức khỏe tổng quát",
+        "support": "Hỗ trợ",
+        "medicalfoundattion": "NỀN TẢNG Y TẾ",
+        "healcare": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "findmedical": "Tìm chuyên khoa khám bệnh",
+        "welcome": "Xin chào, "
+    },
+    "contentdown": {
+        "child1": "Khám chuyên khoa",
+        "child2": "Khám từ xa",
+        "child3": "khám tổng quát",
+        "child4": "Xét nghiệm y học",
+        "child5": "Sức khỏe tinh thần",
+        "child6": "Khám nha khoa"
+    },
+    "specialty": {
+        "popular": "Chuyên khoa phổ biến",
+        "seemore": "Xem thêm"
+    },
+    "menu": {
+        "system": {
+            "header": "Hệ thống",
+            "system-administrator": {
+                "header": "Quản trị hệ thống",
+                "user-manage": "Quản lý người sử dụng",
+                "user-redux": "Quản lý user redux",
+                "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản"
+            },
+            "system-parameter": {
+                "header": "Tham số hệ thống"
+            }
+        },
+        "admin": {
+            "manage-user": "Người dùng",
+            "manage-doctor": "Quản lý Bác sĩ",
+            "manage-admin": "Quản lý admin",
+            "crud": "CRUD user",
+            "crud-redux": "CRUD Redux",
+            "clinic": "Phòng khám",
+            "manage-clinic": "Quản lý phòng khám",
+            "speciatly": "Chuyên khoa",
+            "manage-speciatly": "Quản lý chuyên khoa",
+            "handbook": "Cẩm nang",
+            "manage-handbook": "Quản lý cẩm nang"
+        }
+    },
+    "manage-user": {
+        "add": "Thêm mới người dùng",
+        "email": "Email",
+        "password": "Mật khẩu",
+        "firstname": "Tên",
+        "lastname": "Họ",
+        "phone": "Số điện thoại",
+        "address": "Địa chỉ",
+        "gender": "Giới tính",
+        "position": "Chức danh",
+        "role": "Vai trò",
+        "save": "Lưu người dùng",
+        "image": "Hình ảnh"
+    }
+}
