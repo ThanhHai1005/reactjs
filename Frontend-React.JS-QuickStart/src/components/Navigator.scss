@@ -2,9 +2,9 @@
 
 .navigator-menu {
     display: flex;
-
     margin: 0;
     padding: 0;
+    // border-top: 3px solid $border;
 
 
     &.list-unstyled,
@@ -13,6 +13,10 @@
     }
 
     .menu-group {
+        width: 40%;
+        float: left;
+        text-align: center;
+        position: relative;
 
         &:hover {
             cursor: pointer;
@@ -20,16 +24,29 @@
         }
 
         .menu-group-name {
-            line-height: 40px;
-            padding: 5px 35px;
-            border-top: 3px solid $border;
-
+            position: relative;
+            display: block;
+            padding: 20px 0;
+            font-size: 1.4rem;
 
             &:first-child {
-                border-top: 3px solid $border;
+                // border-top: 3px solid $border;
             }
 
+            .menu-title {
+                border-right: 1px solid;
 
+
+                h3 {
+
+                    font: inherit;
+                    text-transform: uppercase;
+                    padding: 0;
+                    margin: 0;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
         }
 
         .menu-list {

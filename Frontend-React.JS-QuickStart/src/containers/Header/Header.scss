@@ -4,95 +4,105 @@
     z-index: 99;
     display: flex;
     justify-content: space-between;
-    background-color: #1687c8;
     color: black;
-    height: 100px;
+    height: 130px;
     position: relative;
     padding: 0px 140px 0px 140px;
-    align-items: center;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
 
     .header-tabs-container {
-        .social {
-            width: 24px;
-            height: 24px;
-            position: relative;
-            display: flex;
-            float: none;
-            padding-bottom: 10px;
-            margin-bottom: 5px;
-            margin-left: 37px;
+        padding: 30px 0px 30px 0px;
+        width: 450px;
 
-            .img-fb img {
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                object-fit: cover;
+        .header-social {
 
-            }
+            height: 40px;
+            border-bottom: 3px solid #ccc;
 
-            #img2 {
+            .social {
+                width: 24px;
+                height: 24px;
+                position: relative;
+                margin-left: 46px;
 
-                &:hover {
-                    opacity: 0;
-                    cursor: pointer;
+
+
+                .img-fb img {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    object-fit: cover;
 
                 }
-            }
 
-            .img-yt img {
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                object-fit: cover;
-                margin-left: 30px;
+                #img2 {
 
-            }
+                    &:hover {
+                        opacity: 0;
+                        cursor: pointer;
 
-            #img3 {
+                    }
+                }
 
-                &:hover {
-                    opacity: 0;
-                    cursor: pointer;
+                .img-yt img {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    object-fit: cover;
+                    margin-left: 30px;
 
                 }
-            }
 
-            .img-it img {
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                object-fit: cover;
-                margin-left: 60px;
-            }
+                #img3 {
 
-            #img4 {
+                    &:hover {
+                        opacity: 0;
+                        cursor: pointer;
 
-                &:hover {
-                    opacity: 0;
-                    cursor: pointer;
-
+                    }
                 }
+
+                .img-it img {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    object-fit: cover;
+                    margin-left: 60px;
+                }
+
+                #img4 {
+
+                    &:hover {
+                        opacity: 0;
+                        cursor: pointer;
+
+                    }
+                }
+
+
+
+                // a {
+                //     display: block;
+                //     width: 24px;
+                //     height: 24px;
+                //     margin-right: 15px;
+                //     cursor: pointer;
+
+                //     &#img2:hover {
+                //         opacity: 0;
+                //     }
+
+                //     img {
+                //         width: 100%;
+                //         height: 100%;
+                //         position: relative;
+                //     }
+                // }
             }
 
 
 
-            // a {
-            //     display: block;
-            //     width: 24px;
-            //     height: 24px;
-            //     margin-right: 15px;
-            //     cursor: pointer;
-
-            //     &#img2:hover {
-            //         opacity: 0;
-            //     }
-
-            //     img {
-            //         width: 100%;
-            //         height: 100%;
-            //         position: relative;
-            //     }
-            // }
 
 
         }
@@ -114,15 +124,14 @@
 
     .Languages {
 
-
-        width: 24px;
-        height: 24px;
-        position: relative;
+        /* width: 24px; */
+        /* height: 24px; */
+        /* position: relative; */
         display: flex;
-        float: none;
-        padding-bottom: 10px;
-        margin-bottom: 5px;
-        margin-left: 37px;
+        /* float: none; */
+        /* padding-bottom: 10px; */
+        /* margin-bottom: 5px; */
+        margin-left: 65px;
 
 
 

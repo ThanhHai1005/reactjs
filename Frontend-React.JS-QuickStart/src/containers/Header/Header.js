@@ -27,24 +27,27 @@ class Header extends Component {
             <div className="header-container">
                 {/* thanh navigator */}
                 <div className="header-tabs-container">
+                    <div className='header-social'>
+                        <div className='social'>
 
-                    <div className='social'>
-                        <a className='img-fb'>
-                            <img className='fb' src={fb1} id='img' />
-                            <img className='fb1' src={fb} id='img2' />
-                        </a>
+                            <a className='img-fb'>
+                                <img className='fb' src={fb1} id='img' />
+                                <img className='fb1' src={fb} id='img2' />
+                            </a>
 
-                        <a className='img-yt'>
-                            <img className='yt' src={yt1} />
-                            <img className='yt' src={yt} id='img3' />
-                        </a>
+                            <a className='img-yt'>
+                                <img className='yt' src={yt1} />
+                                <img className='yt' src={yt} id='img3' />
+                            </a>
 
-                        <a className='img-it'>
-                            <img className='' src={it1} />
-                            <img className='yt' src={it} id='img4' />
-                        </a>
+                            <a className='img-it'>
+                                <img className='' src={it1} />
+                                <img className='yt' src={it} id='img4' />
+                            </a>
 
+                        </div>
                     </div>
+
 
 
                     <Navigator menus={adminMenu} />
@@ -56,18 +59,21 @@ class Header extends Component {
                 </div>
 
                 <div className="header-tabs-container">
-                    <div className='Languages'>
 
-                        <span className={language === LANGUAGES.VI ? "language-vi active" : "language-vi"}
-                            onClick={() => this.handleChangeLanguage(LANGUAGES.VI)}
-                        >
-                            VN
-                        </span>
-                        <span className={language === LANGUAGES.EN ? "language-en active" : "language-en"}
-                            onClick={() => this.handleChangeLanguage(LANGUAGES.EN)}
-                        >
-                            EN
-                        </span>
+                    <div className='header-social'>
+                        <div className='Languages'>
+
+                            <span className={language === LANGUAGES.VI ? "language-vi active" : "language-vi"}
+                                onClick={() => this.handleChangeLanguage(LANGUAGES.VI)}
+                            >
+                                VN
+                            </span>
+                            <span className={language === LANGUAGES.EN ? "language-en active" : "language-en"}
+                                onClick={() => this.handleChangeLanguage(LANGUAGES.EN)}
+                            >
+                                EN
+                            </span>
+                        </div>
                     </div>
                     <Navigator menus={adminMenu2} />
                 </div>
