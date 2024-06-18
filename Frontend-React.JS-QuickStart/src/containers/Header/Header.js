@@ -11,7 +11,9 @@ import logo1 from '../../assets/images/logo/logo-smarttek.png';
 import fb from '../../assets/images/social/1.png';
 import fb1 from '../../assets/images/social/11.png';
 import yt from '../../assets/images/social/3.png';
+import yt1 from '../../assets/images/social/33.png';
 import it from '../../assets/images/social/Logo-Linkedin1.png';
+import it1 from '../../assets/images/social/Logo-Linkedin.png';
 class Header extends Component {
     handleChangeLanguage = (language) => {
         // alert(language);
@@ -27,17 +29,19 @@ class Header extends Component {
                 <div className="header-tabs-container">
 
                     <div className='social'>
-                        <a>
-                            <img className='fb' src={fb} />
-                            <img className='fb1' src={fb1} />
+                        <a className='img-fb'>
+                            <img className='fb' src={fb1} id='img' />
+                            <img className='fb1' src={fb} id='img2' />
                         </a>
 
-                        <a>
-                            <img className='' src={yt} />
+                        <a className='img-yt'>
+                            <img className='yt' src={yt1} />
+                            <img className='yt' src={yt} id='img3' />
                         </a>
 
-                        <a>
-                            <img className='' src={it} />
+                        <a className='img-it'>
+                            <img className='' src={it1} />
+                            <img className='yt' src={it} id='img4' />
                         </a>
 
                     </div>
@@ -49,8 +53,6 @@ class Header extends Component {
 
                 <div className='logo header-tabs-container'>
                     <img className='header-logo' src={logo1} />
-
-
                 </div>
 
                 <div className="header-tabs-container">
@@ -69,9 +71,6 @@ class Header extends Component {
                     </div>
                     <Navigator menus={adminMenu2} />
                 </div>
-
-
-
             </div>
         );
     }

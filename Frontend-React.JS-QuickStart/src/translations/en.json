@@ -53,8 +53,44 @@
             "manage-handbook": "Management Handbook",
             "about-us": "About us",
             "solution": "Solution",
+            "organization": "Organizational Chart",
             "video": "Video",
-            "contact": "Contact"
+            "contact": "Contact",
+            "vission": "Vision - mission - values",
+            "partner": "Customers - Partner",
+            "factory": "Factory",
+            "factory-sub": {
+                "security": "Smart security solution",
+                "timekeeping": "Smart timekeeping solution",
+                "error-detection": "error detection solution"
+            },
+            "enterprise": "Enterprise",
+            "enterprise-sub": {
+                "security": "Smart security solution",
+                "timekeeping": "Smart timekeeping solution",
+                "roll-call": "AI roll call",
+                "digital-trans": "Digital transformation solution 4.0",
+                "access-control": "Security access control",
+                "construction-management": "GSI construction management map application"
+            },
+            "bank": "Bank",
+            "bank-sub": {
+                "digital-trans": "Digital transformation solution 4.0",
+                "access-control": "Security access control",
+                "roll-call": "AI roll call",
+                "warehouse": "warehouse management software",
+                "queuing": "Smart queuing solution"
+            },
+            "hospital": "Hospital",
+            "hospital-sub": {
+                "nurse": "Nurse bell system",
+                "security": "Smart security solution",
+                "roll-call": "AI roll call"
+            },
+            "retail-store": "Retail-store",
+            "retail-sub": {
+                "behavior": "Analyze customer behavior"
+            }
         }
     },
     "manage-user": {

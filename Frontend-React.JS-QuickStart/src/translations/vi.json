@@ -53,8 +53,44 @@
             "manage-handbook": "Quản lý cẩm nang",
             "about-us": "Về chúng tôi",
             "solution": "Giải pháp",
+            "organization": "Sơ đồ tổ chức",
             "video": "Video",
-            "contact": "Liên hệ"
+            "contact": "Liên hệ",
+            "vission": "Tầm nhìn - Sứ mệnh - Giá trị",
+            "partner": "Khách hàng - Đối tác",
+            "factory": "Nhà máy",
+            "factory-sub": {
+                "security": "Giải pháp an ninh thông minh",
+                "timekeeping": "Giải pháp chấm công thông minh",
+                "error-detection": "Giải pháp dò tìm lỗi"
+            },
+            "enterprise": "Doanh nghiệp",
+            "enterprise-sub": {
+                "security": "Giải pháp an ninh thông minh",
+                "timekeeping": "Giải pháp chấm công thông minh",
+                "roll-call": "Điểm danh AI",
+                "digital-trans": "Giải pháp chuyển đổi số 4.0",
+                "access-control": "Kiểm soát an ninh ra vào",
+                "construction-management": "Ứng dụng bản đồ quản lý xây dựng GSI"
+            },
+            "bank": "Ngân hàng",
+            "bank-sub": {
+                "digital-trans": "Giải pháp chuyển đổi số 4.0",
+                "access-control": "Kiểm soát an ninh ra vào",
+                "roll-call": "Điểm danh AI",
+                "warehouse": "Phần mềm quản lý kho",
+                "queuing": "Xếp hàng thông minh"
+            },
+            "hospital": "Bệnh viện",
+            "hospital-sub": {
+                "nurse": "Hệ thống chuông y tá",
+                "security": "Giải pháp an ninh thông minh",
+                "roll-call": "Điểm danh AI"
+            },
+            "retail-store": "Cửa hàng bán lẻ",
+            "retail-sub": {
+                "behavior": "Phân tích hành vi khách hàng"
+            }
         }
     },
     "manage-user": {

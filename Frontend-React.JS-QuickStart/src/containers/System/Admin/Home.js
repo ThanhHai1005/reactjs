@@ -6,14 +6,8 @@ import { LANGUAGES } from '../../../utils';
 import * as actions from "../../../store/actions"
 
 
-class organi extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.state = {
-    //         genderArr: [],
+class vission extends Component {
 
-    //     }
-    // }
 
     async componentDidMount() {
         // this.props.getGenderStart();
@@ -46,7 +40,7 @@ class organi extends Component {
         return (
             <div className='user-redux-container'>
                 <div className='title'>
-                    Sơ đồ tổ chức
+                    hello Tầm nhìn - Sứ mệnh - Giá trị
                 </div>
             </div>
 
@@ -69,9 +63,9 @@ const mapDispatchToProps = dispatch => {
         // getGenderStart: () => dispatch(actions.fetchGenderStart())
 
         // processLogout: () => dispatch(actions.processLogout()),
-        // changeLanguageAppRedux: (language) => dispatch(actions.changeLanguageApp(language))
+        changeLanguageAppRedux: (language) => dispatch(actions.changeLanguageApp(language))
 
     };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(organi);
+export default connect(mapStateToProps, mapDispatchToProps)(vission);

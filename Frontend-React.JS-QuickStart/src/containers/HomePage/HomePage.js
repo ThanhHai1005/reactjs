@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import HomeHeader from './HomeHeader';
-import Specialty from './Section/Specialty';
-import MedicalFacility from './Section/MedicalFacility';
-import OutstandingDoctor from './Section/OutstandingDoctor';
-import HandBook from './Section/HandBook';
-import About from './Section/About';
+import Header from './../Header/Header';
 import HomeFooter from './HomeFooter';
 import './HomePage.scss'
 import "slick-carousel/slick/slick.css";
@@ -22,7 +17,9 @@ class HomePage extends Component {
         };
         return (
             <div>
-                <HomeHeader />
+
+                <Header />
+                {/* <HomeHeader />
                 <Specialty
                     settings={settings}
                 />
@@ -36,7 +33,7 @@ class HomePage extends Component {
                     settings={settings}
                 />
 
-                <About />
+                <About /> */}
 
                 <HomeFooter />
 
@@ -49,7 +46,7 @@ class HomePage extends Component {
 
 const mapStateToProps = state => {
     return {
-        isLoggedIn: state.user.isLoggedIn
+        // isLoggedIn: state.user.isLoggedIn
     };
 };
 

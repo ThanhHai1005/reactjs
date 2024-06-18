@@ -11,12 +11,13 @@ class MenuGroup extends Component {
         const { name, children } = this.props;
         return (
             <li className="menu-group">
-                <div className="menu-group-name">
+                <div className="menu-group-name" >
                     <h3>  <FormattedMessage id={name} /></h3>
 
                 </div>
                 <ul className="menu-list list-unstyled">
                     {children}
+
                 </ul>
             </li>
         );

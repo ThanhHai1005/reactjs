@@ -6,27 +6,30 @@
     margin: 0;
     padding: 0;
 
+
     &.list-unstyled,
     .list-unstyled {
         list-style-type: none;
     }
 
     .menu-group {
-        // width: 33.33%;
 
         &:hover {
             cursor: pointer;
-            background-color: darken($colormain, 5);
+            // background-color: darken($colormain, 5);
         }
 
         .menu-group-name {
             line-height: 40px;
-            padding: 5px 40px;
+            padding: 5px 35px;
             border-top: 3px solid $border;
+
 
             &:first-child {
                 border-top: 3px solid $border;
             }
+
+
         }
 
         .menu-list {
@@ -37,13 +40,21 @@
             color: $text-in-light;
             position: absolute;
             padding: 0;
+            border-radius: 15px;
+
+
 
             .menu {
-                width: 205px;
+                width: 190px;
                 padding: 0 15px;
-                height: 35px;
-                line-height: 35px;
+                height: 50px;
+                line-height: 20px;
                 text-transform: none;
+                align-items: center;
+                text-align: center;
+                padding-top: 10px;
+                border-radius: 15px;
+
 
                 &.active {
                     a {
@@ -52,7 +63,7 @@
                     }
 
                     background-color: #ededed;
-
+                    // border-radius: 15px;
                 }
 
                 .menu-link {
@@ -67,17 +78,20 @@
                     -webkit-box-shadow: 2px 2px 4px 0 $box-shadow-color;
                     position: absolute;
                     top: 0;
-                    left: 205px;
+                    left: 195px;
                     padding: 0;
+                    border-radius: 15px;
 
                     .sub-menu {
                         padding: 0 15px;
-                        height: 35px;
+                        height: 40px;
                         line-height: 35px;
                         white-space: nowrap;
 
                         &:hover {
                             background-color: darken($bg-menu-color, 5);
+                            // padding: 0;
+                            border-radius: 15px;
                         }
 
                         .sub-menu-link {

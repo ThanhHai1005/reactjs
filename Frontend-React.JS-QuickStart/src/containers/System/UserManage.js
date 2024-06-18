@@ -121,7 +121,11 @@ class UserManage extends Component {
         let arrUsers = this.state.arrUsers;
         return (
             <div className="users-container">
-                <ModalUser
+                <h1>
+                    hello About Us
+
+                </h1>
+                {/* <ModalUser
                     isOpen={this.state.isOpenModalUser}
                     toggleFromParent={this.toggleUserModal}
                     createNewUser={this.createNewUser}
@@ -133,7 +137,7 @@ class UserManage extends Component {
                         toggleFromParent={this.toggleUserEditModal}
                         currentUser={this.state.userEdit}
                         editUser={this.doEditUser}
-                    />}
+                    />} */}
                 {/* <div className='title text-center'>Manage users with Gwen</div>
                 <div className='mx-1'>
                     <button
