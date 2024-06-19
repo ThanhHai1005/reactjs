@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { connect } from 'react-redux';
 import './UserManage.scss';
@@ -8,6 +8,7 @@ import { flatMap } from 'lodash';
 import { emitter } from "../../utils/emitter";
 import { toast } from 'react-toastify';
 import ModalEditUser from './ModalEditUser';
+import Footer from '../../containers/System/footer/footer';
 class UserManage extends Component {
 
     constructor(props) {
@@ -120,69 +121,79 @@ class UserManage extends Component {
         // console.log('check render', this.state)
         let arrUsers = this.state.arrUsers;
         return (
-            <div className="users-container">
-                <h1>
-                    hello About Us
+            // <div className="users-container">
+            //     <h1>
+            //         hello About Us
 
-                </h1>
-                {/* <ModalUser
-                    isOpen={this.state.isOpenModalUser}
-                    toggleFromParent={this.toggleUserModal}
-                    createNewUser={this.createNewUser}
+            //     </h1>
+            //     <ModalUser
+            //         isOpen={this.state.isOpenModalUser}
+            //         toggleFromParent={this.toggleUserModal}
+            //         createNewUser={this.createNewUser}
 
-                />
-                {this.state.isOpenModalEditUser &&
-                    <ModalEditUser
-                        isOpen={this.state.isOpenModalEditUser}
-                        toggleFromParent={this.toggleUserEditModal}
-                        currentUser={this.state.userEdit}
-                        editUser={this.doEditUser}
-                    />} */}
-                {/* <div className='title text-center'>Manage users with Gwen</div>
-                <div className='mx-1'>
-                    <button
-                        className='btn btn-primary px-3'
-                        onClick={() => this.handleAddNewUser()}
-                    > <i className="fas fa-plus"></i>Add new users</button>
+            //     />
+            //     {this.state.isOpenModalEditUser &&
+            //         <ModalEditUser
+            //             isOpen={this.state.isOpenModalEditUser}
+            //             toggleFromParent={this.toggleUserEditModal}
+            //             currentUser={this.state.userEdit}
+            //             editUser={this.doEditUser}
+            //         />}
+            //     <div className='title text-center'>Manage users with Gwen</div>
+            //     <div className='mx-1'>
+            //         <button
+            //             className='btn btn-primary px-3'
+            //             onClick={() => this.handleAddNewUser()}
+            //         > <i className="fas fa-plus"></i>Add new users</button>
+            //     </div>
+            //     <div className='users-table mt-3 mx-1'>
+            //         <table id="customers">
+            //             <tbody>
+            //                 <tr>
+            //                     <th>Email</th>
+            //                     <th>Firstname</th>
+            //                     <th>Lastname</th>
+            //                     <th>Address</th>
+            //                     <th>Actions</th>
+            //                 </tr>
+
+            //                 {arrUsers && arrUsers.map((item, index) => {
+            //                     // console.log('gwen check map', item, index)
+            //                     return (
+
+            //                         <tr>
+            //                             <td>{item.email}</td>
+            //                             <td>{item.firstname}</td>
+            //                             <td>{item.lastname}</td>
+            //                             <td>{item.address}</td>
+            //                             <td>
+            //                                 <button
+            //                                     className='btn-edit'
+            //                                     onClick={() => this.handleEditUser(item)}
+            //                                 ><i className="fas fa-pencil-alt"></i></button>
+            //                                 <button
+            //                                     className='btn-delete'
+            //                                     onClick={() => this.handleDeleteUser(item)}
+            //                                 ><i className="fas fa-trash"></i></button>
+            //                             </td>
+            //                         </tr>
+            //                     )
+            //                 })     // thay vì dùng for thid dùng vòng lập map
+            //                 }
+            //             </tbody>
+            //         </table>
+            //     </div>
+            // </div>
+
+            <Fragment>
+                <div className='user-redux-container'>
+                    <div className='title'>
+                        Về chúng tôi
+                    </div>
                 </div>
-                <div className='users-table mt-3 mx-1'>
-                    <table id="customers">
-                        <tbody>
-                            <tr>
-                                <th>Email</th>
-                                <th>Firstname</th>
-                                <th>Lastname</th>
-                                <th>Address</th>
-                                <th>Actions</th>
-                            </tr>
 
-                            {arrUsers && arrUsers.map((item, index) => {
-                                // console.log('gwen check map', item, index)
-                                return (
-
-                                    <tr>
-                                        <td>{item.email}</td>
-                                        <td>{item.firstname}</td>
-                                        <td>{item.lastname}</td>
-                                        <td>{item.address}</td>
-                                        <td>
-                                            <button
-                                                className='btn-edit'
-                                                onClick={() => this.handleEditUser(item)}
-                                            ><i className="fas fa-pencil-alt"></i></button>
-                                            <button
-                                                className='btn-delete'
-                                                onClick={() => this.handleDeleteUser(item)}
-                                            ><i className="fas fa-trash"></i></button>
-                                        </td>
-                                    </tr>
-                                )
-                            })     // thay vì dùng for thid dùng vòng lập map
-                            }
-                        </tbody>
-                    </table>
-                </div> */}
-            </div>
+                <Footer />
+            </Fragment>
         );
     }
 

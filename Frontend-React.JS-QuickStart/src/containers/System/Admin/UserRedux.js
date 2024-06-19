@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { connect } from 'react-redux';
 import { getAllcodeService } from "../../../services/userService";
 import { LANGUAGES } from '../../../utils';
 import * as actions from "../../../store/actions"
-
+import Footer from '../footer/footer';
 
 class organi extends Component {
     // constructor(props) {
@@ -44,11 +44,16 @@ class organi extends Component {
         let language = this.props.language;
         // console.log("Gwen check props from redux", this.props.genderRedux)
         return (
-            <div className='user-redux-container'>
-                <div className='title'>
-                    Sơ đồ tổ chức
+            <Fragment>
+                <div className='user-redux-container'>
+                    <div className='title'>
+                        Sơ đồ tổ chức
+                    </div>
                 </div>
-            </div>
+
+                <Footer />
+            </Fragment>
+
 
         )
     }
